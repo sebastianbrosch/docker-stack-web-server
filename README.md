@@ -5,6 +5,6 @@ Mit diesem Repository kann ein Docker Stack mit NGINX, PHP 7.2 und MySQL 5.7 ins
 ### Installation:
 
 1. PHP-Image mit den Erweiterungen `mysqli` und `PDO` erstellen:  
-   `docker build -t php7.2-mysql .`
+   `docker build -t php7.2-mysql ./service-php`
 2. Stack erstellen:  
    `docker stack deploy -c docker-compose.yml example`
